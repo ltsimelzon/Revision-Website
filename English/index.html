@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>English Literature Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Sidebar -->
+    <div class="sidebar" id="sidebar">
+        <div class="sidebar-header">
+            <h2>Menu</h2>
+            <button class="close-btn" id="closeSidebar">&times;</button>
+        </div>
+        <nav class="sidebar-nav">
+            <a href="../Homepage/index.html" class="nav-item">
+                <span class="nav-icon">🏠</span>
+                Home
+            </a>
+            <a href="../English/index.html" class="nav-item active">
+                <span class="nav-icon">📚</span>
+                English
+            </a>
+            <a href="../History/index.html" class="nav-item">
+                <span class="nav-icon">🏛️</span>
+                History
+            </a>
+        </nav>
+    </div>
+
+    <!-- Overlay -->
+    <div class="overlay" id="overlay"></div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <!-- Header with Menu Button -->
+        <header class="top-header">
+            <button class="menu-btn" id="menuBtn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <h1>English Literature</h1>
+        </header>
+
+        <!-- Controls moved to the right -->
+        <div class="controls">
+            <div class="toggle-group">
+                <label class="toggle-label">
+                    <input type="checkbox" id="toggle-christmas" checked>
+                    <span>A Christmas Carol</span>
+                </label>
+                <label class="toggle-label">
+                    <input type="checkbox" id="toggle-inspector" checked>
+                    <span>An Inspector Calls</span>
+                </label>
+                <label class="toggle-label">
+                    <input type="checkbox" id="toggle-macbeth" checked>
+                    <span>Macbeth</span>
+                </label>
+                <label class="toggle-label">
+                    <input type="checkbox" id="toggle-poetry" checked>
+                    <span>Poetry</span>
+                </label>
+            </div>
+        </div>
+        
+        <!-- Quote Card Container -->
+        <div class="container">
+            <div class="card-wrapper">
+                <div class="card" id="card">
+                    <!-- Front of card -->
+                    <div class="card-face card-front">
+                        <div class="quote-content">
+                            <p class="quote-text" id="hiddenQuote"></p>
+                        </div>
+                        <button class="btn btn-reveal" id="revealBtn">Reveal Quote</button>
+                    </div>
+                    
+                    <!-- Back of card -->
+                    <div class="card-face card-back">
+                        <div class="quote-content">
+                            <p class="quote-text" id="fullQuote"></p>
+                            <p class="quote-source" id="quoteSource"></p>
+                        </div>
+                        <button class="btn btn-new" id="newQuoteBtn">New Quote</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script type="module" src="script.js"></script>
+</body>
+</html>

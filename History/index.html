@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>History Revision Quiz</title>
+    <link rel="stylesheet" href="history-style.css">
+</head>
+<body>
+    <!-- Sidebar -->
+    <div class="sidebar" id="sidebar">
+        <div class="sidebar-header">
+            <h2>Menu</h2>
+            <button class="close-btn" id="closeSidebar">&times;</button>
+        </div>
+        <nav class="sidebar-nav">
+            <a href="../Homepage/index.html" class="nav-item">
+                <span class="nav-icon">🏠</span>
+                Home
+            </a>
+            <a href="../English/index.html" class="nav-item">
+                <span class="nav-icon">📚</span>
+                English
+            </a>
+            <a href="../History/index.html" class="nav-item active">
+                <span class="nav-icon">🏛️</span>
+                History
+            </a>
+        </nav>
+    </div>
+
+    <!-- Overlay -->
+    <div class="overlay" id="overlay"></div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <!-- Header with Menu Button -->
+        <header class="top-header">
+            <button class="menu-btn" id="menuBtn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <h1>History Revision</h1>
+        </header>
+
+        <!-- Controls moved to the right -->
+        <div class="controls">
+            <div class="toggle-group">
+                <label class="toggle-label">
+                    <input type="checkbox" id="toggle-america" checked>
+                    <span>Making of America</span>
+                </label>
+                <label class="toggle-label">
+                    <input type="checkbox" id="toggle-nazi" checked>
+                    <span>Nazi Germany</span>
+                </label>
+                <label class="toggle-label">
+                    <input type="checkbox" id="toggle-crime" checked>
+                    <span>Crime & Punishment</span>
+                </label>
+                <label class="toggle-label">
+                    <input type="checkbox" id="toggle-elizabethan" checked>
+                    <span>Elizabethan England</span>
+                </label>
+            </div>
+        </div>
+        
+        <!-- Question Card Container -->
+        <div class="container">
+            <div class="card-wrapper">
+                <div class="card" id="card">
+                    <!-- Front of card (Question) -->
+                    <div class="card-face card-front">
+                        <div class="question-content">
+                            <p class="question-text" id="questionText"></p>
+                        </div>
+                        <button class="btn btn-reveal" id="revealBtn">Show Answer</button>
+                    </div>
+                    
+                    <!-- Back of card (Answer) -->
+                    <div class="card-face card-back">
+                        <div class="question-content">
+                            <p class="answer-text" id="answerText"></p>
+                            <p class="question-source" id="questionSource"></p>
+                        </div>
+                        <button class="btn btn-new" id="newQuestionBtn">New Question</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script type="module" src="history-script.js"></script>
+</body>
+</html>
