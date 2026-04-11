@@ -53,10 +53,10 @@ function getFilteredQuotes() {
     return quotes.filter(quote => activeCategories.includes(quote.source[0]));
 }
 
-// Remove approximately 1/2 of random words
+// Remove approximately 1/3 of random words
 function removeRandomWords(text) {
     const words = text.split(' ');
-    const numToRemove = Math.round(words.length / 2);
+    const numToRemove = Math.round(words.length / 3);
     
     // Create array of indices to potentially remove
     const indices = Array.from({length: words.length}, (_, i) => i);
