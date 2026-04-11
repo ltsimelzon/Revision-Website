@@ -56,7 +56,7 @@ function getFilteredQuotes() {
 // Remove approximately 1/3 of random words
 function removeRandomWords(text) {
     const words = text.split(' ');
-    const numToRemove = Math.round(words.length / 3);
+    const numToRemove = Math.round(words.length / 4);
     
     // Create array of indices to potentially remove
     const indices = Array.from({length: words.length}, (_, i) => i);
