@@ -49,7 +49,7 @@ export const quotes = [
         source: ["A Christmas Carol", "Ghost of Christmas Past", "Stave 2"]
     },
     {
-        text: "Another idol has displaced me…a golden one",
+        text: "Another idol has displaced meâ€¦a golden one",
         source: ["A Christmas Carol", "Belle", "Stave 2"]
     },
     {
@@ -88,6 +88,74 @@ export const quotes = [
         text: "I will honour Christmas in my heart",
         source: ["A Christmas Carol", "Scrooge's Transformation", "Stave 5"]
     },
+    {
+        text: "The cold within him froze his old features",
+        source: ["A Christmas Carol", "Narrator", "Stave 1"]
+    },
+    {
+        text: "I think he loses some pleasant moments, which could do him no harm",
+        source: ["A Christmas Carol", "Fred", "Stave 1"]
+    },
+    {
+        text: "A solitary child, neglected by his friends, is left there still",
+        source: ["A Christmas Carol", "Ghost of Christmas Past", "Stave 2"]
+    },
+    {
+        text: "Remove me from this place",
+        source: ["A Christmas Carol", "Scrooge", "Stave 2"]
+    },
+    {
+        text: "They shone in every part of the dance like moons",
+        source: ["A Christmas Carol", "Fezziwig's Party", "Stave 2"]
+    },
+    {
+        text: "Wonderful party, wonderful games, wonderful unanimity",
+        source: ["A Christmas Carol", "Fezziwig's Party", "Stave 2"]
+    },
+    {
+        text: "These young Cratchits danced about the table",
+        source: ["A Christmas Carol", "Cratchit Family", "Stave 3"]
+    },
+    {
+        text: "Nobody said or thought it was at all a small pudding for a large family",
+        source: ["A Christmas Carol", "Cratchit Family", "Stave 3"]
+    },
+    {
+        text: "Bob held his withered little hand in his",
+        source: ["A Christmas Carol", "Cratchit Family", "Stave 3"]
+    },
+    {
+        text: "Spirit of Tiny Tim, thy childish essence was from God",
+        source: ["A Christmas Carol", "Scrooge", "Stave 4"]
+    },
+    {
+        text: "It's likely to be a very cheap funeral",
+        source: ["A Christmas Carol", "Businessmen", "Stave 4"]
+    },
+    {
+        text: "He frightened everyone away from him when he was alive",
+        source: ["A Christmas Carol", "Charwoman", "Stave 4"]
+    },
+    {
+        text: "I am not the man I was",
+        source: ["A Christmas Carol", "Scrooge's Transformation", "Stave 5"]
+    },
+    {
+        text: "I will live in the Past, the Present, and the Future",
+        source: ["A Christmas Carol", "Scrooge's Transformation", "Stave 5"]
+    },
+    {
+        text: "Not the little prize turkey: the big one",
+        source: ["A Christmas Carol", "Scrooge's Transformation", "Stave 5"]
+    },
+    {
+        text: "I'll raise your salary",
+        source: ["A Christmas Carol", "Scrooge's Transformation", "Stave 5"]
+    },
+    {
+        text: "He was better than his word",
+        source: ["A Christmas Carol", "Narrator", "Stave 5"]
+    },
 
     // An Inspector Calls
     {
@@ -123,15 +191,15 @@ export const quotes = [
         source: ["An Inspector Calls", "Mr Birling", "Act 1"]
     },
     {
-        text: "The Titanic…unsinkable, absolutely unsinkable",
+        text: "The Titanicâ€¦unsinkable, absolutely unsinkable",
         source: ["An Inspector Calls", "Mr Birling", "Act 1"]
     },
     {
-        text: "you'd think everybody has to look after everybody else… like bees in a hive",
+        text: "you'd think everybody has to look after everybody elseâ€¦ like bees in a hive",
         source: ["An Inspector Calls", "Mr Birling", "Act 1"]
     },
     {
-        text: "but these girls aren't cheap labour – they're people",
+        text: "but these girls aren't cheap labour â€“ they're people",
         source: ["An Inspector Calls", "Sheila", "Act 1"]
     },
     {
@@ -139,7 +207,7 @@ export const quotes = [
         source: ["An Inspector Calls", "Sheila", "Act 1"]
     },
     {
-        text: "I know I'm to blame – and I'm desperately sorry",
+        text: "I know I'm to blame â€“ and I'm desperately sorry",
         source: ["An Inspector Calls", "Sheila", "Act 1"]
     },
     {
@@ -167,7 +235,7 @@ export const quotes = [
         source: ["An Inspector Calls", "Eric", "Act 1"]
     },
     {
-        text: "you killed her – and the child she'd have had too",
+        text: "you killed her â€“ and the child she'd have had too",
         source: ["An Inspector Calls", "Eric", "Act 1"]
     },
 
@@ -327,7 +395,7 @@ export const quotes = [
         source: ["Poetry", "The Prelude", ""]
     },
     {
-        text: "huge and mighty forms… a trouble to my dreams",
+        text: "huge and mighty formsâ€¦ a trouble to my dreams",
         source: ["Poetry", "The Prelude", ""]
     },
     {
@@ -343,7 +411,7 @@ export const quotes = [
         source: ["Poetry", "My Last Duchess", ""]
     },
     {
-        text: "jaws of death… mouth of hell",
+        text: "jaws of deathâ€¦ mouth of hell",
         source: ["Poetry", "Charge of the Light Brigade", ""]
     },
     {
